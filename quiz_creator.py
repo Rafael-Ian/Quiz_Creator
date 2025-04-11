@@ -19,7 +19,7 @@ def main():
             while True:
                 correct = ("Enter the correct answer (a/b/c/d): ").lower()
                 if correct in ['a', 'b', 'c', 'd']:
-
+                    break
                 # If the input is valid, then it will break out of the loop.
                 else:
                     print("Invalid input. Please enter only a, b, c, d.")# Invalid inputs will keep the loop.
@@ -38,4 +38,7 @@ def main():
                 print("Questions are saved to 'qz_qstns.txt'. Exiting Program.")
                 break
                 # The program will exit if the user doesn't want to continue or doesn't need to add any more questions.
-                
+
+if __name__ == "__main__":
+    main()
+    
