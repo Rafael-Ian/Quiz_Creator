@@ -8,18 +8,22 @@ def main():
 
             # The program will ask the user to input questions that the user needs for the quiz.
             question = input("Enter question: ")
+
             # Next, the program will ask the user to input the choices (a,b,c,d) that the user wants for the quiz.
             a = input("Enter Option a: ")
             b = input("Enter Option b: ")
             c = input("Enter Option c: ")
             d = input("Enter Option d: ")
+
             # Then, the program will ask the user to input the correct answer for that specific question.
             while True:
                 correct = ("Enter the correct answer (a/b/c/d): ").lower()
                 if correct in ['a', 'b', 'c', 'd']:
+
                 # If the input is valid, then it will break out of the loop.
                 else:
                     print("Invalid input. Please enter only a, b, c, d.")# Invalid inputs will keep the loop.
+
             #Puts the question and answer to the text file
             file.write(f"Question: {question}\n")
             file.write(f"a.) {a}\n")
@@ -27,5 +31,11 @@ def main():
             file.write(f"c.) {c}\n")
             file.write(f"d.) {d}\n")
             file.write(f"Correct Answer: {correct}\n\n") #Adds empty line after questionss
-# Next, the program will ask the user if he wants to input another question by yes or no.
-# The program will exit if the user doesn't want to continue or doesn't need to add any more questions.
+
+            # Next, the program will ask the user if he wants to input another question by yes or no.
+            cont = input("Do you want to add another question? (yes/no): ").lower()
+            if cont != 'yes':
+                print("Questions are saved to 'qz_qstns.txt'. Exiting Program.")
+                break
+                # The program will exit if the user doesn't want to continue or doesn't need to add any more questions.
+                
