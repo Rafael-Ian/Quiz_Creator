@@ -13,12 +13,19 @@ def main():
             b = input("Enter Option b: ")
             c = input("Enter Option c: ")
             d = input("Enter Option d: ")
-# Then, the program will ask the user to input the correct answer for that specific question.
+            # Then, the program will ask the user to input the correct answer for that specific question.
             while True:
                 correct = ("Enter the correct answer (a/b/c/d): ").lower()
                 if correct in ['a', 'b', 'c', 'd']:
-# If the input is valid, then it will break out of the loop.
+                # If the input is valid, then it will break out of the loop.
                 else:
-# Invalid inputs will keep the loop.
+                    print("Invalid input. Please enter only a, b, c, d.")# Invalid inputs will keep the loop.
+            #Puts the question and answer to the text file
+            file.write(f"Question: {question}\n")
+            file.write(f"a.) {a}\n")
+            file.write(f"b.) {b}\n")
+            file.write(f"c.) {c}\n")
+            file.write(f"d.) {d}\n")
+            file.write(f"Correct Answer: {correct}\n\n") #Adds empty line after questionss
 # Next, the program will ask the user if he wants to input another question by yes or no.
 # The program will exit if the user doesn't want to continue or doesn't need to add any more questions.
