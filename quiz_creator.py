@@ -17,12 +17,12 @@ def main():
 
             # Then, the program will ask the user to input the correct answer for that specific question.
             while True:
-                correct = ("Enter the correct answer (a/b/c/d): ").lower()
+                correct = input("Enter the correct answer (a/b/c/d): ").lower()
                 if correct in ['a', 'b', 'c', 'd']:
                     break
                 # If the input is valid, then it will break out of the loop.
                 else:
-                    print("Invalid input. Please enter only a, b, c, d.")# Invalid inputs will keep the loop.
+                    print("Invalid input. Please enter only a, b, c, d.")   # Invalid inputs will keep the loop.
 
             #Puts the question and answer to the text file
             file.write(f"Question: {question}\n")
@@ -41,4 +41,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    

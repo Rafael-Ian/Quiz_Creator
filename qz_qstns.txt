@@ -1,0 +1,49 @@
+Question: rar
+a.) 1
+b.) 2
+c.) 3
+d.) 4
+Correct Answer: a
+
+Question: nyay
+a.) 1
+b.) 2
+c.) 3
+d.) 4
+Correct Answer: c
+
+Question: ngek
+a.) 1
+b.) 2
+c.) 3
+d.) 4
+Correct Answer: b
+
+Question: hi
+a.) 1
+b.) 2
+c.) 3
+d.) 4
+Correct Answer: a
+
+Question: sino?
+a.) ikaw
+b.) ako
+c.) siya
+d.) hindi ko alam
+Correct Answer: a
+
+Question: bakit?
+a.) siguro
+b.) maybe
+c.) i don't know
+d.) bahala na
+Correct Answer: c
+
+Question: hi
+a.) 1
+b.) 2
+c.) 3
+d.) 4
+Correct Answer: b
+
